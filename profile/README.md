@@ -21,4 +21,4 @@ when a task needs it. Same model, fewer tokens per turn.
 - [CLAUDE.md vs MinniMemoryMCP](https://minniai.com/learn/claude-code-memory-claude-md-vs-minnimemorymcp)
 - [Measured results](https://minniai.com/evidence)
 
-Website: [minniai.com](https://minniai.com). AI agents: start at [minniai.com/agents.md](https://minniai.com/agents.md).
+Website: [minniai.com](https://minniai.com). Videos: [youtube.com/@MinniLabs](https://www.youtube.com/@MinniLabs). AI agents: start at [minniai.com/agents.md](https://minniai.com/agents.md).
