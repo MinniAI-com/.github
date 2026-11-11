@@ -10,13 +10,17 @@ when a task needs it. Same model, fewer tokens per turn.
 
 | | What it does | Get it |
 |---|---|---|
-| **MinniMemoryMCP** | MCP server that cuts Claude Code token usage by keeping agent memory small and on demand. Runs on your computer, keeps every line. | `npx -y minnimemory init .` · [npm](https://www.npmjs.com/package/minnimemory) · [docs](https://minniai.com/minnimemorymcp/docs) · [Claude Code plugin](https://github.com/MinniAI-com/minnimemory-plugin) |
+| **MinniMemoryMCP** | MCP server that cuts Claude Code and Codex token usage by keeping agent memory small and on demand. Runs on your computer, keeps every line. | `npx -y minnimemory init .` · [npm](https://www.npmjs.com/package/minnimemory) · [docs](https://minniai.com/minnimemorymcp/docs) · [Claude Code plugin](https://github.com/MinniAI-com/minnimemory-plugin) |
 | **MinniCode** | Low-token coding agent for your terminal that runs on open models, free. Reads the code, edits, runs tests, opens pull requests. | [minniai.com/minnicode](https://minniai.com/minnicode) · [docs](https://minniai.com/minnicode/docs) |
 | **MinniTuner** | PC and hardware optimization agent for Windows. Checks GPU driver, power plan, background load and game settings, then proposes a plan. | [minniai.com/minnituner](https://minniai.com/minnituner) |
 
 ## Learn
 
 - [How to reduce Claude Code token usage](https://minniai.com/learn/reduce-claude-code-token-usage)
+- [How to reduce Codex token usage](https://minniai.com/learn/reduce-codex-token-usage)
+- [Claude Code usage limit reached: what to do](https://minniai.com/learn/claude-code-usage-limit-reached)
+- [Codex usage limits: why they drain](https://minniai.com/learn/codex-usage-limits)
+- [AGENTS.md too large: what Codex cuts off](https://minniai.com/learn/agents-md-too-large)
 - [Why Claude Code sessions get expensive](https://minniai.com/learn/why-claude-code-sessions-get-expensive)
 - [CLAUDE.md vs MinniMemoryMCP](https://minniai.com/learn/claude-code-memory-claude-md-vs-minnimemorymcp)
 - [Measured results](https://minniai.com/evidence)
