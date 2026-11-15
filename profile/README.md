@@ -2,9 +2,9 @@
 
 Minni Labs is a research and development company working in the optimization space for AI
 agents, in both software and hardware. In software, we work in the memory layer of AI agents:
-MinniMemoryMCP applies our memory interface to coding agents, and in our best measured run it
-cut the cost of a Claude Code session on our test memory by 31% at API rates, with the answers
-holding up. The median of 13 runs saved 15.9%, and three cost more; every number we publish has a row in our research ledger, with how it was measured.
+MinniMemoryMCP applies our memory interface to coding agents, and in our latest test, on the
+1.6.0 release, it cut the cost of a Claude Code session on our test memory by 37.7% at API rates,
+with the answers holding up. Every number we publish has a row in our research ledger, with how it was measured.
 In hardware, we are building MinniTuner's AI Workstation tier to get the most out of a machine's
 CPU, GPU and RAM for running models locally.
 
@@ -17,8 +17,9 @@ small core that loads every turn and files that load only when a task needs them
 lost. Works in Claude Code and Codex, runs on your computer, no model, no key, nothing sent
 over the internet.
 
-- **Measured:** on our test memory, at API rates, $0.83 to $0.57 for the same 30 questions in
-  Claude Code, two sessions a side: 31% less in our best run and 15.9% less in the median of 13. [Every run is in the ledger.](https://github.com/MinniAI-com/MinniMemoryMCP/blob/main/vendor/ledger/RESULTS.md)
+- **Measured:** with 1.6.0, on our test memory in the layout Claude Code writes, at API rates:
+  $0.47 to $0.29 a Claude Code session for the same 30 questions, 37.7% less, averaged over three
+  sessions a side; a blind judge found 81 of 87 answers correct after and 80 before. [Every run is in the ledger.](https://github.com/MinniAI-com/MinniMemoryMCP/blob/main/vendor/ledger/RESULTS.md)
 - **Try it:** `npx -y minnimemory init .` shows the plan and the diff before anything changes;
   `undo` puts the originals back.
 - **Source:** [MinniAI-com/MinniMemoryMCP](https://github.com/MinniAI-com/MinniMemoryMCP),
